@@ -1,0 +1,11 @@
+{
+  "name": "fitcut-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "每日减脂：训练 + 减脂餐 每日计划（零依赖 PWA）",
+  "scripts": {
+    "serve": "python -m http.server 8080",
+    "test": "node tests/smoke.mjs"
+  }
+}
