@@ -6,8 +6,8 @@
  * - 每日总消耗 TDEE = BMR × 活动系数。
  * - 减脂缺口按 1 kg 脂肪约 7700 kcal 折算，并做安全下限与上限约束。
  */
-import { DISHES, MEAL_ORDER, MEAL_SPLIT } from './data/dishes.js';
-import { ingredient } from './data/ingredients.js';
+import { DISHES, MEAL_ORDER, MEAL_SPLIT } from './dishes.js';
+import { ingredient } from './ingredients.js';
 
 export const ACTIVITY_LEVELS = [
   { value: 1.2,   label: '久坐', desc: '几乎不运动，久坐办公' },

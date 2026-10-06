@@ -5,19 +5,19 @@ const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './css/styles.css',
-  './js/app.js',
-  './js/store.js',
-  './js/nutrition.js',
-  './js/views.js',
-  './js/data/ingredients.js',
-  './js/data/dishes.js',
-  './js/data/exercises.js',
-  './js/data/templates.js',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png',
-  './icons/apple-touch-icon.png'
+  './styles.css',
+  './app.js',
+  './store.js',
+  './nutrition.js',
+  './views.js',
+  './ingredients.js',
+  './dishes.js',
+  './exercises.js',
+  './templates.js',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (e) => {

@@ -8,9 +8,9 @@ import {
   workoutForDate, nextWorkoutKey, weightSeries, MEAL_ORDER, PLANS, DISHES
 } from './store.js';
 import { ACTIVITY_LEVELS, RATE_OPTIONS, dishNutrition, servingItems } from './nutrition.js';
-import { MEAL_LABEL, MEAL_SPLIT } from './data/dishes.js';
-import { EXERCISES } from './data/exercises.js';
-import { INGREDIENTS } from './data/ingredients.js';
+import { MEAL_LABEL, MEAL_SPLIT } from './dishes.js';
+import { EXERCISES } from './exercises.js';
+import { INGREDIENTS } from './ingredients.js';
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => (
   { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]

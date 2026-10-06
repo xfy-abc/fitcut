@@ -4,8 +4,8 @@
  * 所以「我的 → 数据备份」提供了导出/导入 JSON 的兜底。
  */
 import { calcTargets, generateDay, rotateMeal, DEFAULT_PROFILE, dayMacros, dayMacrosWithScale } from './nutrition.js';
-import { DISHES, MEAL_ORDER } from './data/dishes.js';
-import { PLANS, DEFAULT_WEEKDAYS } from './data/templates.js';
+import { DISHES, MEAL_ORDER } from './dishes.js';
+import { PLANS, DEFAULT_WEEKDAYS } from './templates.js';
 
 const KEY = 'fitcut.state.v1';
 const VERSION = 1;
